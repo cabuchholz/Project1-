@@ -42,12 +42,22 @@ border-radius: 25px;
 
   #q
   {
-      width: 33%;
-      height: 6%;
+    width: 33%;
+    height: 6%;
   }
 
   #astitle
   {
-      text-align: left;
-      color: red;
+    padding: 20px 0; 
+    font-size:24px;
+    text-align: left;
+    color: red;
+  }
+
+  #asearch
+  {
+    display:block;
+    text-align:right;
+    background-color: blue;
+    color: white;
   }
