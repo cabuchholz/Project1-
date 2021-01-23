@@ -47,22 +47,31 @@ border-radius: 25px;
   }
 
   #astitle
-  {
-    padding: 20px 0; 
-    font-size:24px;
-    text-align: left;
+  { 
     color: red;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  h1 {
+      font-size: 24px;
   }
 
   #asearch
   {
     display:block;
-    text-align:right;
+    float: right;
     background-color: blue;
     color: white;
   }
 
-  .adform
+  .adinput
   {
       width:100%;
   }
+
+  

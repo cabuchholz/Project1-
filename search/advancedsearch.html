@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google</title>
+        <title>Google Advanced Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
@@ -12,7 +12,7 @@
             <a class="active" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
             <div class="topnav-right">
               <a href="googlesearch.html">Search</a>
-              <a href="advancedsearch.html">Advanced Search</a>
+              <a href="googleimage.html">Images</a>
             </div>
         </div>
 
@@ -21,19 +21,12 @@
         <div class="container">
             <!--First row-->
             <div class="row" >
-              <div class="col-3">
-                <h1 id="astitle">
+              <div class="col-12" id="astitle">
+                <h1>
                     Advanced Search
                 </h1>
               </div>
-              <div class="col-3">
-              </div>
-              <div class="col-6">
-              </div>
             </div>
-
-            <!--horizontal break line-->
-            <hr>
             
             <!--Second row, headers-->
             <div class="row">
@@ -60,7 +53,7 @@
                     </p>
                 </div>
                 <div class="col-3">
-                    <input type="text" name="as_q" id="as_q">
+                    <input type="text" name="as_q" id="as_q" class="adinput">
                 </div>
                 <div class="col-6">
                     <p>
@@ -77,7 +70,7 @@
                     </p>
                 </div>
                 <div class="col-3">
-                    <input type="text" name="as_epq" id="as_epq">
+                    <input type="text" name="as_epq" id="as_epq" class="adinput">
                 </div>
                 <div class="col-6">
                     <p>
@@ -94,7 +87,7 @@
                     </p>
                 </div>
                 <div class="col-3">
-                    <input type="text" name="as_oq" id="as_oq">
+                    <input type="text" name="as_oq" id="as_oq" class="adinput">
                 </div>
                 <div class="col-6">
                     <p>
@@ -111,7 +104,7 @@
                     </p>
                 </div>
                 <div class="col-3">
-                    <input type="text" name="as_eq" id="as_eq">
+                    <input type="text" name="as_eq" id="as_eq" class="adinput">
                 </div>
                 <div class="col-6">
                     <p>
@@ -128,7 +121,7 @@
                     </p>
                 </div>
                 <div class="col-3">
-                    <input type="submit" value="Advanced Search">
+                    <input type="submit" value="Advanced Search" id="asearch">
                 </div>
                 <div class="col-6">
                     <p>
