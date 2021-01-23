@@ -25,6 +25,12 @@ border-radius: 25px;
     text-decoration: none;
     font-size: 14px;
   }
+
+  .topnav img {
+      float: left;
+      width: 100px;
+      padding: 10px 0;
+  }
   
   .topnav a:hover {
     text-decoration: underline;
@@ -38,4 +44,10 @@ border-radius: 25px;
   {
       width: 33%;
       height: 6%;
+  }
+
+  #astitle
+  {
+      text-align: left;
+      color: red;
   }
